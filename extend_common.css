@@ -1,0 +1,68 @@
+
+
+/* -----------------------------------论坛首页模块 ------------------------------------- */
+
+
+/*栏目标题样式*/
+.xxbt{ font-size:16px; padding:10px 0 0 0; color:#707070; font-weight:700; }
+.xxbt h3{padding:2px 0 8px 0; border-bottom:1px solid #e0e0e0;}
+
+.xxbt2{ font-size:16px; padding:15px 0; color:#707070; font-weight:700; }
+.xxbt2 h3{ padding-left:26px; background:url({STYLEIMGDIR}/fkbj.png) no-repeat 4px 2px;}
+
+
+
+/*动画效果*/
+@keyframes mymove2
+{from { right:30px; opacity:0.2;} to {right:0; opacity:1;}}
+@-webkit-keyframes mymove2
+{from { right:30px; opacity:0.2;} to {right:0; opacity:1;}}
+@-moz-keyframes mymove2
+{from { right:30px; opacity:0.2;} to {right:0; opacity:1;}}
+
+
+
+/*首页幻灯片模块*/
+.ddbox{ width:1200px; margin:0 auto; height:380px;}
+.ddbox a img{
+position:relative;
+animation:mymove2 1s 1;
+-moz-animation:mymove2 1s 1;
+-webkit-animation:mymove2 1s 1;
+animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-webkit-animation-fill-mode:both;}
+
+.slidebar em{ display:block; float:left; width:12px; height:12px; border-radius:12px; margin-left:8px; background:#FFF;cursor: pointer;}
+.slidebar em.on{background:#F66;}
+
+
+
+
+/*最新主题-精华主题*/
+.zuozuo{ min-width:407px; background:#fff; padding:0 10px;}
+.youyou{ min-width:407px; background:#fff; padding:0 10px;}
+
+.remen{ background:#fff; padding:2px 5px;}
+.remen li{ padding-left:15px; line-height:35px; background:url({STYLEIMGDIR}/dot2.gif) no-repeat 0 15px;}
+.remen li span{ float:right; color:#aaa; font-size:12px;}
+
+
+
+/*活跃会员*/
+.huiyuan{ width:270px; background:#fff; padding:0 15px 10px 15px; overflow:hidden; margin-left:18px;}
+.huiyuan ul{ width:300px;}
+.huiyuan li{float:left; width:95px; padding: 5px 0 10px 5px;}
+.huiyuan li img{ border-radius:50px; }
+.huiyuan p{ width:67px; height:20px; padding:8px 0 0 3px; overflow:hidden;}
+
+
+
+/* ----------------------------------- 发帖编辑窗 ------------------------------------- */
+
+
+#e_simple, #e_fullswitcher{ font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+.bar_swch{ font-size:12px; font-family:Arial, Helvetica, sans-serif; }
+
+
+
